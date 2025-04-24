@@ -1,21 +1,57 @@
-# 💼 Salary Viewer App
+# 📊 Salary Viewer Web App
 
-A simple interactive JavaScript web app that allows users to explore salary data by selecting a company and a job role. It dynamically displays relevant statistics like individual salary, average salary by role, company, and industry.
+Welcome to the **Salary Viewer**, a simple JavaScript web application that allows users to explore salary data based on company and job role. It offers dynamic, real-time rendering of salaries and averages through an interactive interface.
 
 ---
 
-> 📦 **Features**
+> 💡 **Features**
 >
-> - Select job role and company with radio buttons
-> - Get detailed salary breakdown:
->   - Role-specific salary at a company
->   - Average salary by role
->   - Average salary by company
->   - Overall industry average salary
-> - Clean, modular JavaScript code
-> - DOM manipulation for dynamic rendering
+> ✅ Select a **Company** and **Job Role** from the interface  
+> ✅ Instantly view:
+>   - Salary for a role at a company  
+>   - Average salary by **role**  
+>   - Average salary at a **company**  
+>   - Industry-wide average salary  
+> ✅ Modular JavaScript code using ES6 Modules  
+> ✅ DOM manipulation for seamless user experience
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Technologies Used
 
+- HTML5  
+- CSS3  
+- JavaScript (ES6 Modules)  
+- DOM API  
+
+---
+
+## 🗂️ Project Structure
+
+```
+salary-viewer/
+├── index.html                 # Main HTML file
+├── style.css                  # Styling
+├── main.js                    # Main logic (DOM interaction, rendering)
+├── modules/
+│   ├── salaryData.js          # Static salary data and data fetching functions
+│   └── workAroundModule.js    # Calculation logic for salaries and averages
+└── README.md                  # This file
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/salary-viewer.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd salary-viewer
+   ```
+3. Open `index.html` in your browser.
+4. Choose a company and role to see salary insights!
+
+---
